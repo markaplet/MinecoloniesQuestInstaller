@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="questinstaller"
+version="1.0.0"
+displayName="Quest Installer"
+description='''
+Copies default quest and texture files into config and kubejs folders if missing.
+'''
+
+[[dependencies.questinstaller]]
+modId="minecolonies"
+mandatory=false
+versionRange="[1.20.1-1.1.60-BETA,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.questinstaller]]
+modId="ftbquests"
+mandatory=false
+versionRange="[2001.4.14,)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.questinstaller]]
+modId="kubejs"
+mandatory=false
+ordering="BEFORE"
+side="BOTH"
