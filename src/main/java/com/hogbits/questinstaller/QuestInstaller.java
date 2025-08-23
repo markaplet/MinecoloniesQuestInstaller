@@ -1,8 +1,8 @@
 package com.hogbits.questinstaller;
 
 import net.minecraftforge.fml.common.Mod;
-//import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-//import net.minecraftforge.eventbus.api.SubscribeEvent;
+import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLConstructModEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.fml.loading.FMLPaths;
@@ -27,11 +27,29 @@ public class QuestInstaller {
         copyIfMissing("ftbquests/quests/chapters/minecolonies.snbt",
                 FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/chapters/minecolonies.snbt"));
 
+        copyIfMissing("ftbquests/quests/reward_tables/choice_compost.snbt",
+                FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_compost.snbt"));
+
+        copyIfMissing("ftbquests/quests/reward_tables/choice_crush.snbt",
+                FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_crush.snbt"));
+
         copyIfMissing("ftbquests/quests/reward_tables/choice_flowers.snbt",
                 FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_flowers.snbt"));
 
+        copyIfMissing("ftbquests/quests/reward_tables/choice_food.snbt",
+                FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_food.snbt"));
+
         copyIfMissing("ftbquests/quests/reward_tables/choice_hospital.snbt",
                 FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_hospital.snbt"));
+
+        copyIfMissing("ftbquests/quests/reward_tables/choice_logs.snbt",
+                FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_logs.snbt"));
+
+        copyIfMissing("ftbquests/quests/reward_tables/choice_sapling.snbt",
+                FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_sapling.snbt"));
+
+        copyIfMissing("ftbquests/quests/reward_tables/choice_stone.snbt",
+                FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/choice_stone.snbt"));
 
         copyIfMissing("ftbquests/quests/reward_tables/minecolonies_common.snbt",
                 FMLPaths.CONFIGDIR.get().resolve("ftbquests/quests/reward_tables/minecolonies_common.snbt"));
