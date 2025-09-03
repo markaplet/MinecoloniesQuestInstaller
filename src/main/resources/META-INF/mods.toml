@@ -4,12 +4,12 @@ license="MIT"
 
 [[mods]]
 modId="questinstaller"
-version="1.0.0"
+version="1.1.0"
 displayName="Minecolonies Quest Installer"
 logoFile="logo.png"
 authors="hogbits"
 description='''
-Copies default quest and texture files into config and kubejs folders if missing.
+Adds a Minecolonies questline for FTB Quests.
 '''
 
 [[dependencies.questinstaller]]
@@ -24,11 +24,4 @@ modId="ftbquests"
 mandatory=false
 versionRange="[2001.4.14,)"
 ordering="NONE"
-side="BOTH"
-
-[[dependencies.questinstaller]]
-modId="kubejs"
-mandatory=false
-versionRange="*"
-ordering="BEFORE"
 side="BOTH"
