@@ -5,15 +5,14 @@ A simple mod for installing my [minecolonies questline](https://www.planetminecr
 This mod is compatible with Minecraft 1.20.1 and forge 47.4.0.
 
 ## Safe Edits
-The mod only copies the config files to the appropriate folders if they do not exist. If files already exist at the specified locations nothing is overwritten.
+The mod installs a Minecolonies Questline for FTB Quests. If config files already exist at the specified locations nothing is overwritten.
 
 ## Mod Dependencies
 * Minecolonies
 * FTB Quests
-* Kubejs
 
 ## Build
 `.\gradlew build`   
 
 ## Output
-`/build/libs/questinstaller-x.x.x.jar`
+`/build/libs/minecolonies-questline-1.20.1-x.x.x.jar`
